@@ -1,10 +1,18 @@
-var express = require('express');
-var mongoose = require('mongoose');
-var multer = require('multer');
-var path = require('path');
-var csvModel = require('./models/csv');
-var csv = require('csvtojson');
-var bodyParser = require('body-parser');
+// var express = require('express');
+// var mongoose = require('mongoose');
+// var multer = require('multer');
+// var path = require('path');
+// var csvModel = require('./models/csv');
+// var csv = require('csvtojson');
+// var bodyParser = require('body-parser');
+
+import express from 'express';
+import mongoose from 'mongoose';
+import multer from 'multer';
+import path from 'path';
+import csvModel from './models/csv';
+import csv from 'csvtojson';
+import bodyParser from 'body-parser';
 
 var storage = multer.diskStorage({
   destination: (req, file, cb) => {
