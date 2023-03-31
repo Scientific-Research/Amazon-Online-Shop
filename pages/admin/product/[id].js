@@ -121,26 +121,26 @@ function ProductEdit({ params }) {
     }
   };
 
-  // const uploadTextHandler = async (e, imageField = 'image') => {
-  //   const file = e.target.files[0];
-  //   const bodyFormData = new FormData();
-  //   bodyFormData.append('file', file);
-  //   try {
-  //     dispatch({ type: 'UPLOAD_REQUEST' });
-  //     const { data } = await axios.post('/api/admin/textUpload', bodyFormData, {
-  //       headers: {
-  //         'Content-Type': 'multipart/form-data',
-  //         authorization: `Bearer ${userInfo.token}`,
-  //       },
-  //     });
-  //     dispatch({ type: 'UPLOAD_SUCCESS' });
-  //     setValue(imageField, data.secure_url);
-  //     enqueueSnackbar('File uploaded successfully', { variant: 'success' });
-  //   } catch (err) {
-  //     dispatch({ type: 'UPLOAD_FAIL', payload: getError(err) });
-  //     enqueueSnackbar(getError(err), { variant: 'error' });
-  //   }
-  // };
+  const uploadTextHandler = async (e, imageField = 'image') => {
+    const file = e.target.files[0];
+    const bodyFormData = new FormData();
+    bodyFormData.append('file', file);
+    try {
+      dispatch({ type: 'UPLOAD_REQUEST' });
+      const { data } = await axios.post('/api/admin/textUpload', bodyFormData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+          authorization: `Bearer ${userInfo.token}`,
+        },
+      });
+      dispatch({ type: 'UPLOAD_SUCCESS' });
+      setValue(imageField, data.secure_url);
+      enqueueSnackbar('File uploaded successfully', { variant: 'success' });
+    } catch (err) {
+      dispatch({ type: 'UPLOAD_FAIL', payload: getError(err) });
+      enqueueSnackbar(getError(err), { variant: 'error' });
+    }
+  };
 
   const submitHandler = async ({
     name,
@@ -233,7 +233,7 @@ function ProductEdit({ params }) {
                   className={classes.form}
                 >
                   {/* EXCEL */}
-                  {/* <ListItem>
+                  <ListItem>
                     <Controller
                       name="textData"
                       control={control}
@@ -258,11 +258,11 @@ function ProductEdit({ params }) {
                   </ListItem>
                   <ListItem>
                     <Button variant="contained" component="label">
-                      Upload Text File
+                      Upload Excel File
                       <input type="file" onChange={uploadTextHandler} hidden />
                     </Button>
                     {loadingUpload && <CircularProgress />}
-                  </ListItem> */}
+                  </ListItem>
                   {/* EXCEL */}
 
                   <List>

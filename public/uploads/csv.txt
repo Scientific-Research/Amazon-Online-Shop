@@ -1,0 +1,12 @@
+"name",   			"slug",      			"category",           "image",  	"price",  "brand",  "rating",  		"numReviews",  "countInStock",  "description" , 			"featuredImage", 		"isFeatured"
+"Fit Shirt",  	    "fit-shirt63",      	 	"Shirts",      				" "	,          80,      Adidas,      5,          			1,                       20,             "A popular shirt",		  " ",									false
+"Fit Shirt",  	    "fit-pant53",      	 	"Shirts",      				" "	,          80,      Adidas,      5,          			1,                       20,             "A popular shirt",		  " ",									false
+"Fit Shirt",  	    "fit-shirt54",      	 	"Shirts",      				" "	,          80,      Adidas,      5,          			1,                       20,             "A popular shirt",		  " ",									false
+"Fit Shirt",  	    "fit-shirt55",      	 	"Shirts",      				" "	,          80,      Adidas,      5,          			1,                       20,             "A popular shirt",		  " ",									false
+"Fit Shirt",  	    "fit-shirt56",      	 	"Shirts",      				" "	,          80,      Adidas,      5,          			1,                       20,             "A popular shirt",		  " ",									false
+"Fit Shirt",  	    "fit-shirt57",      	 	"Shirts",      				" "	,          80,      Adidas,      5,          			1,                       20,             "A popular shirt",		  " ",									false
+"Fit Shirt",  	    "fit-shirt58",      	 	"Shirts",      				" "	,          80,      Adidas,      5,          			1,                       20,             "A popular shirt",		  " ",									false
+"Fit Shirt",  	    "fit-shirt59",      	 	"Shirts",      				" "	,          80,      Adidas,      5,          			1,                       20,             "A popular shirt",		  " ",									false
+"Fit Shirt",  	    "fit-shirt60",      	 	"Shirts",      				" "	,          80,      Adidas,      5,          			1,                       20,             "A popular shirt",		  " ",									false
+"Fit Shirt",  	    "fit-shirt61",      	 	"Shirts",      				" "	,          80,      Adidas,      5,          			1,                       20,             "A popular shirt",		  " ",									false
+"Fit Shirt",  	    "fit-shirt62",      	 	"Shirts",      				" "	,          80,      Adidas,      5,          			1,                       20,             "A popular shirt",		  " ",									false
